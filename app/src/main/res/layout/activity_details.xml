@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context=".Details">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="350dp"
+       android:id="@+id/profilepic"
+       android:src="@drawable/sample"
+       android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profilepic"
+        android:id="@+id/nameDet"
+        android:text="name"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:id="@+id/phoneDet"
+        android:layout_below="@+id/nameDet"
+        android:gravity="center"
+        android:textSize="20sp"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailDet"
+        android:layout_below="@+id/phoneDet"
+        android:text="email"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:text="date of birth"
+        android:id="@+id/dobDet"
+        android:layout_below="@+id/emailDet"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/speciDet"
+        android:text="specialization"
+        android:layout_below="@+id/dobDet"
+        android:gravity="center"
+        android:textSize="20sp"/>
+</RelativeLayout>

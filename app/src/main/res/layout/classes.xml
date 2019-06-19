@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Main2Activity$PlaceholderFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/acnrelative"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/classes_sub_background">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/priya_mam"
+            android:layout_margin="10dp"
+            android:id="@+id/acnimg"
+            />
+
+        <TextView
+            android:id="@+id/acnname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/acnimg"
+            android:layout_marginTop="10dp"
+            android:text="Mrs Ch Priyadarshini"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/acnsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/acnname"
+            android:layout_toEndOf="@+id/acnimg"
+            android:layout_marginTop="10dp"
+            android:text="ADVANCED COMPUTER NETWORKS" />
+
+        <TextView
+            android:id="@+id/acnphone"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/acnsub"
+            android:layout_toEndOf="@+id/acnimg"
+            android:text="9493841861" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/clcrelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/acnrelative"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/classes_sub_background">
+
+        <ImageView
+            android:id="@+id/clcimg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/classes_image_radius"
+            android:src="@drawable/mythri_mam" />
+
+        <TextView
+            android:id="@+id/clcname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/clcimg"
+            android:text="Mrs Kamisetty Mythri Sridevi"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/clcsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clcname"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/clcimg"
+            android:text="CLOUD COMPUTING" />
+
+        <TextView
+            android:id="@+id/clcphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/clcsub"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/clcimg"
+            android:text="8074154910" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/msrelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/classes_sub_background"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/clcrelative">
+
+        <ImageView
+            android:id="@+id/msimg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/mastan_sir" />
+
+        <TextView
+            android:id="@+id/msname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/msimg"
+            android:text="Dr.SHAIK MASTHAN SAHEB"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/mssub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/msname"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/msimg"
+            android:text="MANAGEMENT SCIENCE" />
+
+        <TextView
+            android:id="@+id/msphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mssub"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/msimg"
+            android:text="9490722279" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/umlrelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/msrelative"
+        android:background="@drawable/classes_sub_background">
+
+        <ImageView
+            android:id="@+id/umlimg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ravi_sir" />
+
+        <TextView
+            android:id="@+id/umlname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/umlimg"
+            android:text="Mr.Ravi Kiran K"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/umlsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/umlname"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/umlimg"
+            android:text="UNIFIED MODELING LANGUAGE AND DESIGN PATTERN" />
+
+        <TextView
+            android:id="@+id/umlphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/umlsub"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/umlimg"
+            android:text="9701679799" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
